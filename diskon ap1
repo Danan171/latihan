@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+ 
+    int ntb,diskon,total;
+    cout<<"Input Total Nilai Belanja : "; cin>>ntb;
+    if(ntb>=100000){
+        diskon = ntb * 0.25;
+        total = ntb - diskon;
+        cout<<"Diskon : "<<diskon<<endl;
+        cout<<"Total : "<<total<<endl;
+    }else{
+        diskon = ntb * 0;
+        total = ntb - diskon;
+        cout<<"Diskon : "<<diskon<<endl;
+        cout<<"Total : "<<total<<endl;
+    }
+}
