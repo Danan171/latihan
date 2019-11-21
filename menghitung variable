@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+void penukaran(integer a,integer b) {
+
+void penukaran(integer a,integer b)
+int c;
+a=b
+b=a
+c=a
+
+cout<<" angka integer a="<<a<<"angka integer b="<<b;
+
+}
+int main (){
+    int a,b;
+    cout<<"angka integer a=";
+    cin>>a;
+    cout<<"angka integer b=";
+    cin>>b;
+    
+    cout<<"angka integer a="<<a<<"angka integer b="<<b<<endl;
+    
+    return 0;
+}
